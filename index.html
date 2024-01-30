@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="style.css">
 	<link rel="icon" href="descarga.png">
-	<title>HTML Semantico</title>
+	<title>HTML Semantic</title>
 </head>
 <body>
 	<header>
@@ -18,7 +18,7 @@
 					<a href="#Inicio">Inicio</a>
 				</li>	
 				<li>
-					<a href="#Etiquetas">Etiquetas</a>
+					<a href="#Fundamenots">Fundamentos</a>
 				</li>
 			</ol>
 		</nav>
@@ -43,6 +43,14 @@
 			</p>
 		</section>
 
+		<section class="Fundamentos">
+		<h2>
+			Cuales son los fundamentos de HTML
+		</h2>
+		<p>
+			Los fundamentos de HTML (Hypertext Markup Language) son los elementos básicos que forman la estructura de una página web. HTML proporciona una manera de estructurar el contenido de una página web utilizando una sintaxis de marcado. Aquí están algunos de los fundamentos clave de HTML:
+		</p>			
+		</section>
 		<section>
 			<h2>
 				Como se estructura una pagina web con HTML
@@ -197,6 +205,7 @@
 			<p>
 				En HTML, las listas son estructuras que permiten organizar y presentar información de manera ordenada o desordenada. Hay dos tipos principales de listas en HTML: listas ordenadas (&lt;ol&gt;) y listas no ordenadas (&lt;ul&gt;).
 			</p>
+			<article>
 			<ul>
 				<li>
 					<h3>
@@ -214,6 +223,70 @@
     	   &lt;li&gt;Elemento 2&lt;/li&gt;
     	   &lt;li&gt;Elemento 3&lt;/li&gt;
 	&lt;/ul&gt;
+			</pre>
+			<ul>
+				<li>
+					<h3>
+						Listas Ordenadas (&lt;ol&gt;)
+					</h3>
+					<p>
+						Las listas ordenadas se utilizan cuando el orden de los elementos es significativo. Cada elemento de la lista se numerará automáticamente.
+					</p>
+				</li>
+			</ul>
+			<pre>
+
+	&lt;ol&gt;
+    	&lt;li&gt;Primer elemento&lt;/li&gt;
+    	&lt;li&gt;Segundo elemento&lt;/li&gt;
+    	&lt;li&gt;Tercer elemento&lt;/li&gt;
+	&lt;/ol&gt;
+			</pre>
+			<ul>
+				<li>
+					<h3>
+						Listas Descriptivas (&lt;dl&gt;)
+					</h3>
+					<p>
+						Además de las listas ordenadas y no ordenadas, existe también la lista descriptiva (&lt;dl&gt;), que se utiliza para definir términos y proporcionar descripciones asociadas.
+					</p>
+				</li>
+			</ul>
+			<pre>
+
+	&lt;dl&gt;
+    	   &lt;dt&gt;Término 1&lt;/dt&gt;
+    	   &lt;dd&gt;Descripción de Término 1.&lt;/dd&gt;
+
+    	   &lt;dt&gt;Término 2&lt;/dt&gt;
+    	   &lt;dd&gt;Descripción de Término 2.&lt;/dd&gt;
+	&lt;/dl&gt;
+			</pre>
+		</article>
+		</section>
+
+		<section>
+			<h2>
+				Las Tablas
+			</h2>
+			<p>
+				En HTML, las tablas (&lt;table&gt;) se utilizan para organizar y mostrar datos en filas y columnas. Las tablas son una herramienta útil para presentar información de manera estructurada y fácil de entender. La estructura básica de una tabla HTML incluye las siguientes etiquetas:
+			</p>
+			<pre>
+	&lt;table&gt;
+		&lt;tr&gt;
+		   &lt;th&gt;Encabezado 1&lt;/th&gt;
+		   &lt;th&gt;Encabezado 2&lt;/th&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+		   &lt;td&gt;Dato 1&lt;/td&gt;		
+		   &lt;td&gt;Dato 2&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+		   &lt;td&gt;Dato 3&lt;/td&gt;
+		   &lt;td&gt;Dato 4&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/table&gt;
 			</pre>
 		</section>
 	</main>
