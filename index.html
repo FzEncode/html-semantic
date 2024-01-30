@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="descarga.png">
+	<title>HTML Semantico</title>
+</head>
+<body>
+	<header>
+		<h1>
+			HTML Semantico
+		</h1>
+		<nav>
+			<ol>
+				<li>
+					<a href="#Inicio">Inicio</a>
+				</li>	
+				<li>
+					<a href="#Etiquetas">Etiquetas</a>
+				</li>
+			</ol>
+		</nav>
+	</header>
+	<main>
+
+		<section class="Inicio">
+			<h2>
+				Hablemos de lo que es HTML
+			</h2>
+			<p>
+				HTML, que significa "Lenguaje de Marcado de Hipertexto" en inglés (Hypertext Markup Language), es el estándar principal para la creación y el diseño de páginas web. Es un lenguaje de marcado que permite estructurar el contenido de una página web mediante el uso de etiquetas y atributos. Las etiquetas describen el significado semántico del contenido, mientras que los atributos proporcionan información adicional sobre las etiquetas.
+			</p>
+		</section>
+
+		<section>
+			<h2>
+				Para que se usa HTML
+			</h2>
+			<p>
+				HTML (Lenguaje de Marcado de Hipertexto, por sus siglas en inglés) se utiliza para crear y estructurar el contenido de las páginas web. Es el lenguaje fundamental que define la estructura y el significado semántico de los elementos en una página. A continuación, se detallan algunas de las funciones principales de HTML:
+			</p>
+		</section>
+
+		<section>
+			<h2>
+				Como se estructura una pagina web con HTML
+			</h2>
+			<p>
+				La estructura básica de una página web con HTML sigue un formato estándar. Aquí te proporcionaré una descripción detallada de cada parte de la estructura:
+			</p>
+			<article>
+				<ul>
+					<li>
+						<h3>
+							Declaración del Tipo de Documento (DOCTYPE):
+						</h3>
+					</li>
+				</ul>
+
+				<pre>
+					
+	&lt;!DOCTYP html&gt;
+				</pre>
+				<p>
+					Esta línea declara la versión de HTML que estás utilizando. En este caso, html es la versión más reciente y comúnmente utilizada.
+				</p>
+				<ul>
+					<li>
+						<h3>
+							&lt;html lang="es"&gt;: Indica el inicio del documento HTML y especifica el idioma de la página.
+						</h3>
+					</li>
+				</ul>
+				<pre>
+
+	&lt;html lang="es"&gt;				
+				</pre>
+				<ul>
+					<li>
+						<h3>
+							&lt;head&gt;: Contiene metadatos, enlaces a hojas de estilo (CSS), scripts, y otros elementos que no son parte del contenido principal visible en la página.
+						</h3>
+					</li>
+				</ul>
+				<pre>
+
+	&lt;head&gt;				
+				</pre>
+				<ul>
+					<li>
+						<h3>
+							&lt;meta charset="UTF-8"&gt;: Define el conjunto de caracteres a UTF-8 para admitir caracteres especiales.
+						</h3>
+					</li>
+				</ul>
+				<pre>
+
+	&lt;meta chraste="UTF-8"&gt;				
+				</pre>
+				<ul>
+					<li>
+						<h3>
+							&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;: Configura la escala inicial y el ancho de la ventana para dispositivos móviles.
+						</h3>
+					</li>
+				</ul>
+				<pre>
+
+	&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;				
+				</pre>
+				<ul>
+					<li>
+						<h3>
+							&lt;title&gt;: Define el título de la página que se muestra en la barra de título del navegador.
+						</h3>
+					</li>
+				</ul>
+				<pre class="pre1">
+
+	&lt;title&gt;
+				</pre>
+				<ul>
+					<li>
+						<h3>
+							&lt;body&gt;: Contiene todo el contenido visible de la página.
+						</h3>
+					</li>
+				</ul>
+				<pre>
+
+	&lt;body&gt;			
+				</pre>
+				<ul>
+					<li>
+						<h3>
+							&lt;header&gt;: Puede incluir el logotipo, el menú de navegación, o cualquier elemento de encabezado de la página.
+						</h3>
+					</li>
+				</ul>
+				<pre>
+
+	&lt;header&gt;				
+				</pre>
+				<ul>
+					<li>
+						<h3>
+							&lt;main&gt;: Contiene el contenido principal de la página.
+						</h3>
+					</li>
+				</ul>
+				<pre>
+
+	&lt;main&gt;				
+				</pre>
+				<ul>
+					<li>
+						<h3>
+							&lt;footer&gt;: Puede incluir información de contacto, enlaces adicionales, o cualquier elemento de pie de página.
+						</h3>
+					</li>
+				</ul>
+				<pre>
+
+	&lt;footer&gt;
+				</pre>
+			</article>
+		</section>
+
+		<section>
+			<h2>
+				Los Encabezados
+			</h2>
+			<p>
+				Los encabezados en HTML son elementos utilizados para definir títulos o secciones dentro de una página web. Proporcionan una estructura jerárquica que ayuda a organizar y dar formato al contenido. Hay seis niveles de encabezados, del &lt;h1&gt; al &lt;h6&gt;, donde &lt;h1&gt; es el nivel más alto y &lt;h6&gt; el nivel más bajo.
+			</p>
+			<ul>
+				<li>
+					<h3>
+						&lt;h1&gt;: Encabezado de nivel 1, generalmente se utiliza para el título principal de la página.
+					</h3>
+				</li>
+				<li>
+					<h3>
+						&lt;h2&gt;: Encabezado de nivel 2, para secciones importantes dentro del contenido.
+					</h3>
+				</li>
+				<li>
+					<h3>
+						&lt;h3&gt; a &lt;h6&gt;: Encabezados de niveles inferiores, cada uno con un tamaño y significado descendentes.
+					</h3>
+				</li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>
+				Los parrafos
+			</h2>
+			<p>
+				
+			</p>
+		</section>
+	</main>
+	<footer>
+		
+	</footer>
+</body>
+</html>

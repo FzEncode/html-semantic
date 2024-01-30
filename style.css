@@ -1,0 +1,21 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+header h1{
+	background-color: gray;
+	width: 400px;
+}
+section{
+	background-color: lightgrey;
+	width: 900px;
+}
+pre{
+	background-color: black;
+	color: white;
+	margin: 15px;
+	font-size: 15px;
+}
+.pre1{
+	
+}
