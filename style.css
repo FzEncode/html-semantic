@@ -16,6 +16,12 @@ pre{
 	margin: 15px;
 	font-size: 15px;
 }
-.pre1{
-	
+h1{
+	background-color: slategrey;
+}
+h2{
+	background-color: lightslategray;
+}
+h3{
+	background-color: dimgray;
 }
