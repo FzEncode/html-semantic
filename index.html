@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="descarga.png">
 	<title>HTML Semantic</title>
 </head>
 <body>
@@ -12,10 +13,167 @@
 			HTML Semantico
 		</h1>
 		<nav>
-			<ol>
-				<a href="#Inicio">Inicio</a>
-			</ol>
+			<ul>
+				<li>
+					<a href="#Inicio">Inicio</a>
+				</li>
+				<li>
+					<a href="#Fundamentos">Fundamentos</a>
+				</li>
+			</ul>
 		</nav>
 	</header>
+
+	<main>
+		<section>
+			<h2>
+				Que es HTML?
+			</h2>
+			<p>
+				¡Claro! HTML, o HyperText Markup Language (Lenguaje de Marcado de Hipertexto), es el lenguaje estándar utilizado para crear páginas web. Proporciona una estructura básica para el contenido de una página web, permitiendo a los desarrolladores web definir y organizar diferentes tipos de contenido, como texto, imágenes, enlaces, formularios, videos, entre otros. HTML utiliza etiquetas para marcar distintos elementos dentro de una página web y define la relación y estructura entre ellos.
+			</p>
+		</section>
+
+		<section>
+			<h2>
+				Para que sirve HTML
+			</h2>
+			<p>
+				HTML es como el esqueleto de una página web. Imagina que estás construyendo una casa: el HTML sería como los cimientos y la estructura básica. Te ayuda a decirle al navegador web qué partes componen tu página, como encabezados, párrafos, imágenes, enlaces y más.
+			</p>
+		</section>
+
+		<section>
+			<h2>
+				Los Fundamentos De HTML
+			</h2>
+			<p>
+				Los fundamentos de HTML incluyen:
+			</p>
+			<article>
+				<ul>
+					<li>
+						<h3>
+							Elementos y Etiquetas:
+						</h3>
+						<p>
+							HTML utiliza elementos y etiquetas para definir la estructura y el contenido de una página web. Los elementos se definen mediante etiquetas de apertura &lt;tag&gt; y etiquetas de cierre &lt;/tag&gt;. Por ejemplo, &lt;p&gt; define un párrafo.
+						</p>
+					</li>
+					<li>
+						<h3>
+							Atributos:
+						</h3>
+						<p>
+							Los atributos proporcionan información adicional sobre los elementos y se especifican dentro de las etiquetas de apertura. Por ejemplo, el atributo src se utiliza en la etiqueta &lt;img&gt; para especificar la ubicación de la imagen.
+						</p>
+					</li>
+					<li>
+						<h3>
+							Estructura básica:
+						</h3>
+						<p>
+							Una página HTML típica comienza con &lt;!DOCTYPE html&gt; seguido de &lt;html&gt;, que envuelve todo el contenido de la página. Luego, dentro de &lt;html&gt;, encontramos &lt;head&gt; para metadatos y &lt;body&gt; para el contenido visible.
+						</p>
+					</li>
+					<li>
+						<h3>
+							Texto:
+						</h3>
+						<p>
+							HTML permite incluir texto dentro de los elementos, ya sea directamente o mediante el uso de etiquetas de texto como &lt;p&gt;, &lt;h1&gt; para encabezados, &lt;strong&gt; para texto en negrita, &lt;em&gt; para texto en cursiva, entre otros.
+						</p>
+					</li>
+					<li>
+						<h3>
+							Enlaces:
+						</h3>
+						<p>
+							Los enlaces se crean utilizando la etiqueta &lt;a&gt;. El atributo href dentro de la etiqueta &lt;a&gt; especifica la URL a la que se enlaza el texto.
+						</p>
+					</li>
+					<li>
+						<h3>
+							Imágenes:
+						</h3>
+						<p>
+							Para incrustar imágenes en una página web, se utiliza la etiqueta &lt;img&gt;. El atributo src especifica la ruta de la imagen.
+						</p>
+					</li>
+					<li>
+						<h3>
+							Listas:
+						</h3>
+						<p>
+							 HTML permite crear listas ordenadas (&lt;ol&gt;) y no ordenadas (&lt;ul&gt;). Los elementos de la lista se definen utilizando la etiqueta &lt;li&gt;.
+						</p>
+					</li>
+					<li>
+						<h3>
+							Tablas:
+						</h3>
+						<p>
+							Las tablas se crean utilizando las etiquetas &lt;table&gt;, &lt;tr&gt; para filas y &lt;td&gt; para celdas de datos.
+						</p>
+					</li>
+					<li>
+						<h3>
+							Formularios:
+						</h3>
+						<p>
+							Los formularios permiten a los usuarios enviar datos al servidor. Se crean utilizando la etiqueta &lt;form&gt;, y dentro de ella, se utilizan etiquetas como &lt;input&gt; para campos de entrada, &lt;select&gt; para listas desplegables, &lt;textarea&gt; para áreas de texto, etc.
+						</p>
+					</li>
+				</ul>
+			</article>
+		</section>
+
+		<section>
+			<h2>
+				Como esta estructura una pagina web con HTML
+			</h2>
+			<p>
+				Una página web estructurada con HTML sencillo y semántico podría tener la siguiente estructura:
+			</p>
+			<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang="es"&gt;
+&lt;head&gt;
+    	&lt;meta charset="UTF-8"&gt;
+    	&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    	&lt;title&gt;Título de la Página&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;header&gt;
+        &lt;h1&gt;Logo o Título Principal&lt;/h1&gt;
+        &lt;nav&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="#inicio"&gt;Inicio&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#contact"&gt;Contacto&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/nav&gt;
+    &lt;/header&gt;
+
+    &lt;main&gt;
+        &lt;section id="inicio"&gt;
+            &lt;h2&gt;Sección de Inicio&lt;/h2&gt;
+            &lt;p&gt;Bienvenido a mi página web.&lt;/p&gt;
+        &lt;/section&gt;
+
+        &lt;section id="acerca"&gt;
+            &lt;h2&gt;Acerca de&lt;/h2&gt;
+            &lt;p&gt;Información sobre mí o sobre mi empresa.&lt;/p&gt;
+        &lt;/section&gt;
+    &lt;/main&gt;
+
+    &lt;footer&gt;
+        &lt;p&gt;Derechos de autor &copy; 2024 Mi Empresa&lt;/p&gt;
+    &lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+			</pre>
+		</section>
+	</main>
 </body>
 </html>
