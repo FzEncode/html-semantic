@@ -12,13 +12,14 @@ body{
 h1{
 	background-color: gray;
 	width: 600px;
+	font-family: roboto;
 }
 h2{
 	background-color: palegreen;
 }
 section{
 	background-color: lightgray;
-	width: 70%;
+	width: 800px
 }
 article{
 	background-color: lightsteelblue;
