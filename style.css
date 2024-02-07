@@ -1,26 +1,4 @@
-body{
+*{
 	margin: 0px;
 	padding: 0px;
-
-}
-header h1{
-	background-color: gray;
-	width: 400px;
-}
-section{
-	background-color: grey;
-	width: 900px;
-	margin: 10px;
-}
-pre{
-	background-color: black;
-	color: white;
-	margin: 15px;
-	font-size: 15px;
-}
-h2{
-	background-color: slategray;
-}
-h3{
-	background-color: darkgrey;
 }
