@@ -4,242 +4,134 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="style.css">
-	<link rel="icon" href="descarga.png">
+	<link rel="icon" href="icon.png">
 	<title>HTML Semantic</title>
 </head>
 <body>
-	<header>
-		<h1>
+	<header id="Titulo-principal">
+		<h1 id="Titulo-principal-h1">
 			HTML Semantico
 		</h1>
-		<nav>
-			<ul>
+		<nav id="Titulo-principal-nav">
+			<ol>
 				<li>
-					<a href="#Inicio">Inicio</a>
+					<a href="#Inicio" class="a-1">Inicio</a>
 				</li>
+			</ol>
+			<ol>
 				<li>
-					<a href="#Fundamentos">Fundamentos</a>
+					<a href="#Fundamentos" class="a-1">Fundamentos</a>
 				</li>
-			</ul>
+			</ol>
 		</nav>
 	</header>
 
 	<main>
 		<section>
-			<h2>
+			<h2 class="Inicio">
 				Que es HTML?
 			</h2>
 			<p>
-				¡Claro! HTML, o HyperText Markup Language (Lenguaje de Marcado de Hipertexto), es el lenguaje estándar utilizado para crear páginas web. Proporciona una estructura básica para el contenido de una página web, permitiendo a los desarrolladores web definir y organizar diferentes tipos de contenido, como texto, imágenes, enlaces, formularios, videos, entre otros. HTML utiliza etiquetas para marcar distintos elementos dentro de una página web y define la relación y estructura entre ellos.
+				HTML (HyperText Markup Language) es el lenguaje estándar utilizado para crear y diseñar páginas web. Es un lenguaje de marcado que permite estructurar el contenido de una página web mediante etiquetas y atributos que definen diferentes elementos, como texto, imágenes, enlaces, formularios, etc.
 			</p>
 		</section>
 
-		<section>
+		<section class="Fundamentos">
 			<h2>
-				Para que sirve HTML
+				Cuales Son Los Fundamentos de HTML
 			</h2>
 			<p>
-				HTML es como el esqueleto de una página web. Imagina que estás construyendo una casa: el HTML sería como los cimientos y la estructura básica. Te ayuda a decirle al navegador web qué partes componen tu página, como encabezados, párrafos, imágenes, enlaces y más.
-			</p>
-		</section>
-
-		<section>
-			<h2>
-				Los Fundamentos De HTML
-			</h2>
-			<p>
-				Los fundamentos de HTML incluyen:
+				Los fundamentos de HTML incluyen los conceptos y elementos básicos que se utilizan para crear y estructurar páginas web. Algunos de los fundamentos clave de HTML son:
 			</p>
 			<article>
-				<ul>
-					<li>
-						<h3>
-							Elementos y Etiquetas:
-						</h3>
-						<p>
-							HTML utiliza elementos y etiquetas para definir la estructura y el contenido de una página web. Los elementos se definen mediante etiquetas de apertura &lt;tag&gt; y etiquetas de cierre &lt;/tag&gt;. Por ejemplo, &lt;p&gt; define un párrafo.
-						</p>
-					</li>
-					<li>
-						<h3>
-							Atributos:
-						</h3>
-						<p>
-							Los atributos proporcionan información adicional sobre los elementos y se especifican dentro de las etiquetas de apertura. Por ejemplo, el atributo src se utiliza en la etiqueta &lt;img&gt; para especificar la ubicación de la imagen.
-						</p>
-					</li>
-					<li>
-						<h3>
-							Estructura básica:
-						</h3>
-						<p>
-							Una página HTML típica comienza con &lt;!DOCTYPE html&gt; seguido de &lt;html&gt;, que envuelve todo el contenido de la página. Luego, dentro de &lt;html&gt;, encontramos &lt;head&gt; para metadatos y &lt;body&gt; para el contenido visible.
-						</p>
-					</li>
-					<li>
-						<h3>
-							Texto:
-						</h3>
-						<p>
-							HTML permite incluir texto dentro de los elementos, ya sea directamente o mediante el uso de etiquetas de texto como &lt;p&gt;, &lt;h1&gt; para encabezados, &lt;strong&gt; para texto en negrita, &lt;em&gt; para texto en cursiva, entre otros.
-						</p>
-					</li>
-					<li>
-						<h3>
-							Enlaces:
-						</h3>
-						<p>
-							Los enlaces se crean utilizando la etiqueta &lt;a&gt;. El atributo href dentro de la etiqueta &lt;a&gt; especifica la URL a la que se enlaza el texto.
-						</p>
-					</li>
-					<li>
-						<h3>
-							Imágenes:
-						</h3>
-						<p>
-							Para incrustar imágenes en una página web, se utiliza la etiqueta &lt;img&gt;. El atributo src especifica la ruta de la imagen.
-						</p>
-					</li>
-					<li>
-						<h3>
-							Listas:
-						</h3>
-						<p>
-							 HTML permite crear listas ordenadas (&lt;ol&gt;) y no ordenadas (&lt;ul&gt;). Los elementos de la lista se definen utilizando la etiqueta &lt;li&gt;.
-						</p>
-					</li>
-					<li>
-						<h3>
-							Tablas:
-						</h3>
-						<p>
-							Las tablas se crean utilizando las etiquetas &lt;table&gt;, &lt;tr&gt; para filas y &lt;td&gt; para celdas de datos.
-						</p>
-					</li>
-					<li>
-						<h3>
-							Formularios:
-						</h3>
-						<p>
-							Los formularios permiten a los usuarios enviar datos al servidor. Se crean utilizando la etiqueta &lt;form&gt;, y dentro de ella, se utilizan etiquetas como &lt;input&gt; para campos de entrada, &lt;select&gt; para listas desplegables, &lt;textarea&gt; para áreas de texto, etc.
-						</p>
-					</li>
-				</ul>
+				<h3>
+					Elementos y etiquetas
+				</h3>
+				<p>
+					HTML se basa en el uso de elementos y etiquetas para definir diferentes partes de una página web. Cada elemento comienza con una etiqueta de apertura &lt;nombre_del_elemento&gt; y termina con una etiqueta de cierre &lt;/nombre_del_elemento&gt;. Por ejemplo, &lt;p&gt; y &lt;/p&gt; se utilizan para crear párrafos de texto.
+				</p>
+				<h3>
+					Atributos:
+				</h3>
+				<p>
+					HTML utiliza atributos para proporcionar información adicional sobre los elementos. Algunos atributos comunes incluyen id (identificador único), class (clase de estilo), href (URL de destino), src (ruta de la imagen), entre otros.
+				</p>
+				<h3>
+					Estructura básica:
+				</h3>
+				<p>
+					Toda página web HTML comienza con el elemento &lt;html&gt; y tiene dos secciones principales: &lt;head&gt; (encabezado) y &lt;body&gt; (cuerpo). El encabezado contiene metadatos, como el título de la página y enlaces a hojas de estilo o scripts, mientras que el cuerpo contiene el contenido visible de la página.
+				</p>
+				<h3>
+					Textos:
+				</h3>
+				<p>
+					HTML permite agregar diferentes tipos de texto, como encabezados (&lt;h1&gt;, &lt;h2&gt;, etc.), párrafos (&lt;p&gt;), listas (&lt;ul&gt;, &lt;o&gt;>, &lt;li&gt;), y otros elementos de texto como negritas (&lt;strong&gt;), cursivas (&lt;em&gt;), subrayados (&lt;u&gt;), entre otros.
+				</p>
+				<h3>
+					Enlaces:
+				</h3>
+				<p>
+					Los enlaces &lt;a&gt; se utilizan para conectar diferentes páginas web entre sí. Pueden contener texto o imágenes y tienen un atributo href que especifica la URL de destino.
+				</p>
+				<h3>
+					Imágenes:
+				</h3>
+				<p>
+					Las imágenes &lt;img&gt; se utilizan para mostrar imágenes en una página web. Tienen un atributo src que especifica la ruta de la imagen y un atributo alt que proporciona un texto alternativo para accesibilidad.
+				</p>
+				<h3>
+					Tablas: 
+				</h3>
+				<p>
+					HTML permite la creación de tablas &lt;table&gt; para organizar datos en filas y columnas. Las tablas contienen elementos como &lt;tr&gt; para filas, &lt;td&gt; para celdas de datos y &lt;th&gt; para encabezados de columna o fila.
+				</p>
+				<h3>
+					Formularios:
+				</h3>
+				<p>
+					Los formularios &lt;form&gt; se utilizan para recopilar datos del usuario. Contienen elementos de entrada como campos de texto (&lt;input type="text"&gt;), casillas de verificación (&lt;input type="checkbox"&gt;), botones (&lt;button&gt;), entre otros.
+				</p>
 			</article>
 		</section>
 
 		<section>
 			<h2>
-				Como esta estructura una pagina web con HTML
+				Que Son Los Encabezados?
 			</h2>
 			<p>
-				Una página web estructurada con HTML sencillo y semántico podría tener la siguiente estructura:
+				Los encabezados en HTML son elementos utilizados para definir los niveles de jerarquía y estructura del texto en una página web. Ayudan a organizar y dar formato al contenido, facilitando su lectura y comprensión. En HTML, hay seis niveles de encabezado, desde el &lt;h1&gt; hasta el &lt;h6&gt;, donde &lt;h1&gt; es el nivel más alto y &lt;h6&gt; es el nivel más bajo.
 			</p>
-			<pre>
-
-&lt;!DOCTYPE html&gt;
-&lt;html lang="es"&gt;
-&lt;head&gt;
-    	&lt;meta charset="UTF-8"&gt;
-    	&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-    	&lt;title&gt;Título de la Página&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;header&gt;
-        &lt;h1&gt;Logo o Título Principal&lt;/h1&gt;
-        &lt;nav&gt;
-            &lt;ul&gt;
-                &lt;li&gt;&lt;a href="#inicio"&gt;Inicio&lt;/a&gt;&lt;/li&gt;
-                &lt;li&gt;&lt;a href="#contact"&gt;Contacto&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-        &lt;/nav&gt;
-    &lt;/header&gt;
-
-    &lt;main&gt;
-        &lt;section id="inicio"&gt;
-            &lt;h2&gt;Sección de Inicio&lt;/h2&gt;
-            &lt;p&gt;Bienvenido a mi página web.&lt;/p&gt;
-        &lt;/section&gt;
-
-        &lt;section id="acerca"&gt;
-            &lt;h2&gt;Acerca de&lt;/h2&gt;
-            &lt;p&gt;Información sobre mí o sobre mi empresa.&lt;/p&gt;
-        &lt;/section&gt;
-    &lt;/main&gt;
-
-    &lt;footer&gt;
-        &lt;p&gt;Derechos de autor &copy; 2024 Mi Empresa&lt;/p&gt;
-    &lt;/footer&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-			</pre>
-		</section>
-
-		<section>
-			<h2>
-				Los Encabezados
-			</h2>
-			<p>
-				En HTML, los encabezados son elementos utilizados para definir la estructura jerárquica y visualmente destacada del contenido de una página web. Estos elementos van desde &lt;h1&gt; hasta &lt;h6&gt;, donde &lt;h1&gt; es el encabezado más importante y &lt;h6&gt; el menos importante. Aquí tienes una breve descripción de cada uno:
-			</p>
+			<h3>
+				Aquí hay un resumen de cada uno:
+			</h3>
 			<article>
-				<ul>
-					<li>
-						<h3>
-							&lt;h1&gt;
-						</h3>
-						<p>
-							Este es el encabezado más importante y generalmente se utiliza para el título principal de la página. Debe haber solo un &lt;h1&gt; por página, y este título suele describir el tema principal o el propósito de la página.
-						</p>
-					</li>
-					<li>
-						<h3>
-							&lt;h2&gt;
-						</h3>
-						<p>
-							Es el siguiente nivel de importancia después de &lt;h1&gt;. Se usa para subsecciones importantes del contenido. Puede haber varios &lt;h2&gt; en una página, cada uno representando una sección principal dentro del tema general de la página.
-						</p>
-					</li>
-					<li>
-						<h3>
-							&lt;h3&gt; a &lt;h6&gt;
-						</h3>
-						<p>
-							Estos son encabezados de niveles inferiores, donde &lt;h3&gt; es el más importante dentro de este grupo y &lt;h6&gt; el menos importante. Se utilizan para subdividir las secciones representadas por los encabezados superiores. 
-						</p>
-					</li>
-				</ul>
+				<pre class="section-article__pre-encabezados">
+
+	<b>&lt;h1&gt;</b>: Este es el encabezado más grande y se utiliza para títulos principales o secciones principales de una página web.
+	<b>&lt;h2&gt;</b>: Se utiliza para subsecciones de <b>&lt;h1&gt;</b>, siendo ligeramente menos prominente.
+	<b>&lt;h3&gt;</b>: Se utiliza para subsecciones de <b>&lt;h2&gt;</b>, y así sucesivamente hasta <b>&lt;h6&gt;</b>.
+	<b>&lt;h4&gt;</b>, <b>&lt;h5&gt;</b>, <b>&lt;h6&gt;</b>: Son encabezados de niveles inferiores, utilizados para subdivisiones más específicas del contenido.				
+				</pre>
 			</article>
 		</section>
 
 		<section>
 			<h2>
-				Los Parrafos
+				Que son los Parrafos?
 			</h2>
 			<p>
-				En HTML, los párrafos se definen mediante la etiqueta <p>. Esta etiqueta se utiliza para marcar bloques de texto que forman un párrafo en el contenido de una página web. Los párrafos son elementos semánticos que ayudan a estructurar el texto y mejorar la legibilidad de una página.
+				Los párrafos en HTML son elementos utilizados para definir bloques de texto que forman unidades coherentes dentro de una página web. Se utilizan para agrupar y estructurar el contenido textual, lo que facilita su presentación y comprensión por parte de los usuarios. En HTML, los párrafos se definen utilizando la etiqueta &lt;p&gt;, que indica el comienzo de un párrafo, y &lt;/p&gt;, que indica el final del párrafo.
 			</p>
-			<pre>
-
-	&lt;p&gt;Este es un párrafo de texto. Los párrafos son útiles para agrupar y estructurar el contenido de una página web.&lt;/p&gt;
-			</pre>
-		</section>
-
-		<section>
-			<h2>
-				Los Enlaces
-			</h2>
 			<p>
-				En HTML, los enlaces se definen utilizando la etiqueta &lt;a&gt;, que significa "ancla". Los enlaces permiten a los usuarios navegar de una página web a otra página web, a otra sección de la misma página web, o a recursos externos como archivos PDF, imágenes, videos, etc. También se pueden usar para enviar datos a través de formularios o para ejecutar scripts.
+				Por ejemplo:
 			</p>
-			<br>
-			<p>
-				Aquí tienes un ejemplo básico de cómo se usa la etiqueta <a> para crear un enlace:
-			</p>
-			<pre>
+			<article>
+				<pre class="section-article__pre-encabezados">
 
-	&lt;a href="https://www.ejemplo.com"<a href="https://www.ejemplo.com" target="_blank">Enlace a Ejemplo</a>&lt;/a&gt;
-			</pre>
+	&lt;p&gt;Este es un parrafo &lt;/p&gt;				
+				</pre>
+			</article>
 		</section>
 	</main>
 </body>
